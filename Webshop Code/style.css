@@ -11,9 +11,11 @@
                             "Footer        Footer        Footer        Footer";
 
     }
+
     body{
-        
+           
     }
+
     .Header {
     grid-area: Header;
     }
