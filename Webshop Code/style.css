@@ -4,7 +4,85 @@ body {
   background-color: white;
 }
 
-ul {
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+.Header {
+  background: rgb(0,100,0);
+  text-align: center;
+}
+
+.Header ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.Header ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.Header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .Header ul li:hover {
+  background-color: #2bab0d;
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.Header ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.Header ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.Header ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: o;
+  text-align: left;
+}
+
+.Header ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.Header ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140;
+  background: rgb(0,100,0);
+}
+/* ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
@@ -54,7 +132,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 @media screen and (max-width: 505px){
     #Webshop{
