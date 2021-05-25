@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
-body {
+html, body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
   background-color: white;
 }
+
 
 ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
-  padding-top: 50pxo;
+  padding-top: 50px;
 }
 
 li {
