@@ -51,8 +51,9 @@ html, body{
 
 
 .Header {
-  background: rgb(0,100,0);
+  background: white;
   text-align: center;
+  border: 1px solid grey;
 }
 
 .Header ul {
@@ -69,11 +70,12 @@ html, body{
 
 .Header ul li a {
   text-decoration: none;
-  color: #fff;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .active, .Header ul li:hover {
-  background-color: #2bab0d;
+  background-color: red;
   border-radius: 3px;
 }
 
