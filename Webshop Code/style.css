@@ -11,12 +11,6 @@ html, body{
   background-color: white;
 }
 
-/* .Logo {
-  position: absolute;
-  margin-top: -415px;
-  margin-left: -150px; 
-} */
-
 /* Header */
 
 *
@@ -39,7 +33,11 @@ html, body{
 
 .Header ul li {
   width: 120px;
-  margin: 15px;
+  /* margin: 15px; */
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
   padding: 15px;
 }
 
