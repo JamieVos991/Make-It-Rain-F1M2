@@ -197,8 +197,6 @@ html, body{
 /* FOOTER END */
 
 
-
-
 @media screen and (max-width: 505px){
     #Webshop{
         grid-template-columns: 1fr 1fr;
@@ -229,5 +227,4 @@ html, body{
     .Footer {
     grid-area: Footer;
     }
-    
-}
+  }  
