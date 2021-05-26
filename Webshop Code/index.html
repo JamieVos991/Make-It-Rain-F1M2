@@ -5,27 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="./fotoslider-schoenen/fotoslider-style.css">
+=======
+>>>>>>> 2f700b252d8c2123885e3efa7a5e39f52fd2227f
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,400&family=Squada+One&display=swap" rel="stylesheet">
     <title>Webshop</title>
 
 </head>
 <body>
 
         <div class="Header">
-            <!-- <ul>
-              <div><img src="/Logo.png" alt=""></div>
-                <li><a href="#home">Home</a></li>
-                <li class="dropdown">
-                  <a href="Shoes" class="dropbtn">Shoes</a>
-                  <div class="dropdown-content">
-                    <a href="#">Nike</a>
-                    <a href="#">Adidas</a>
-                    <a href="#">Vans</a>
-                    <li><a href="#Shop">Shop</a></li>
-                    <li><a href="#About">About</a></li>
-                  </div>
-                </li>
-              </ul> -->
-              <div class ="Logo"><a href="#"><img src="/Logo.svg"></a></div>
+              <!-- <div class ="Logo"><a href="#"><img src="/Logo.svg"></a></div> -->
               <ul>
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#shoes">Shoes</a>
@@ -62,6 +54,104 @@
                 <li><a href="#specialshoes">Special Shoes</a></li>
                 <li><a href="#About">About us</a></li>
               </ul>
+<<<<<<< HEAD
+
+
+
+        </div>
+
+        <!--Image slider start-->
+        <div class="slider">
+          <div class="slides"> 
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1" >
+              <input type="radio" name="radio-btn" id="radio2" >
+              <input type="radio" name="radio-btn" id="radio3" >
+              <input type="radio" name="radio-btn" id="radio4" >
+              <!--radio buttons end-->
+              <!--slide Image start-->
+              <div class="slide first">
+                  <img src="./fotoslider-schoenen/nike-jordan.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./fotoslider-schoenen/nike-airforce.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./fotoslider-schoenen/adidas-yeezy.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./fotoslider-schoenen/adidas-yeezy-zwart.png" alt="">
+              </div>
+              <!--slide Image end-->
+              <!--automtic navigation start-->
+              <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                  <div class="auto-btn3"></div>
+                  <div class="auto-btn4"></div>
+              </div>
+              <!--automtic  navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+  
+        </div>
+        <!--Image slider Eind-->
+        <script type="text/javascript"> 
+        var counter = 1; 
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+              counter = 1;
+          }
+        },5000);
+      
+      
+      </script>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+                <a href="#">Terms of Service</a>
+            </div>  
+            <div class="footer-heading footer-2">
+              <h2>Contact Us</h2>
+              <a href="#">Jobs</a>
+              <a href="#">Support</a>
+              <a href="#">Contact</a>
+              <a href="#">Sponsorships</a>
+          </div>  
+          <div class="footer-heading footer-3">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+        </div>  
+        <div class="footer-email-form"></div>
+          <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btn">
+        </div>
+              
+          <div class="footer-bottom">
+            <h4 class="Text1">© by Jamie, Alex en Jesse van het Mediacollege</h4>
+          </div>
+    </div>
+
+
+=======
 
 
 
@@ -70,17 +160,43 @@
     <div class="page-wrapper">
 
     </div>
-
-    <div class="footer">
-      <div class="footer-content">
-
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+                <a href="#">Terms of Service</a>
+            </div>  
+            <div class="footer-heading footer-2">
+              <h2>Contact Us</h2>
+              <a href="#">Jobs</a>
+              <a href="#">Support</a>
+              <a href="#">Contact</a>
+              <a href="#">Sponsorships</a>
+          </div>  
+          <div class="footer-heading footer-3">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+        </div>  
+        <div class="footer-email-form"></div>
+          <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btn">
+        </div>
+              
+          <div class="footer-bottom">
+            <h4 class="Text1">© by Jamie, Alex en Jesse van het Mediacollege</h4>
+          </div>
     </div>
-           
-      <div class="footer-bottom">
-        <h4 class="Text1">© by Jamie, Alex en Jesse van het Mediacollege</h4>
-      </div>
 
 
+>>>>>>> 2f700b252d8c2123885e3efa7a5e39f52fd2227f
     <div class="Fotoslider">
                 
     </div>
