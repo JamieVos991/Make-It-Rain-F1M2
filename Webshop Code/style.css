@@ -144,7 +144,7 @@ html, body{
   transition: 0.3s ease-out;
 }
 
-.footer .footer-bottom {
+/* .footer-bottom {
   background: #343a40;
   color: #686868;
   height: 61px;
@@ -155,8 +155,7 @@ html, body{
   left: 0px;
   padding-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif;
-
-}
+} */
 
 .page-wrapper{
   min-height: 100%;
@@ -175,6 +174,7 @@ html, body{
   padding-left: 0.5rem;
   font-size: 1rem;
   margin-bottom: 1rem;
+  margin-top: 150px;
 }
 
 #footer-email::placeholder {
@@ -190,6 +190,16 @@ html, body{
   border: none;
   color: white;
   font-size: 1rem;
+  margin-top: 150px;
+}
+
+.Text1 {
+  height: 61px;
+  /* background-color: gray; */
+  text-align: center;
+  color: #686868;
+
+  
 }
 
 /* FOOTER END */
