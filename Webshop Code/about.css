@@ -133,7 +133,10 @@
   
   /* NAVIGATION END */
   
-  
+.Text {
+text-align: center;
+}
+
   /* FOOTER */
   
   .footer{
