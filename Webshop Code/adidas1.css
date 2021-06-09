@@ -10,9 +10,9 @@
   
   body {
       background-image: url(../Nike/achtergrond.gif);
-      background-repeat: no-repeat;
-      background-position: center 10%;
-      background-size: 50%;
+      /* background-repeat: no-repeat; */
+      /* background-position: center 10%; */
+      /* background-size: 50%; */
       background-attachment: fixed;
   }
   
@@ -140,70 +140,77 @@
   
   /* NAVIGATION END */
 
-  .Achtergrond {
-     
-      background-repeat: no-repeat;
-  }
-
-  .TitelNJ {
+  .titel-schoen{
+    margin-top: -48%;
     text-align: center;
-    margin-top: -45%;
-    color: red;
+    font-size: 200%;
+    
   }
+ 
+  
+  .foto-links{
+      margin-left: 8%;
+      height: 100%;
+     
 
-  .Dior {
-    margin-left: 10%;
-    margin-top: 7%; 
-    color: red;
   }
-
-  .Blauwrood {
-    margin-left: 38%;
-    margin-top: -14%;
-    color: red;
+  .bijlage-links{
+      margin-left: 15%;
+      font-size: 130%;
+      margin-top: -2%;
   }
-
-  .off-white {
+  .winkelkar-links{
+      margin-left: 2%;
+      margin-top: 0%;
+  }
+  .prijs-links{
+      margin-left: 18%;
+      font-size: 130%;
+      margin-top: 0.7%;
+  }
+  .afbeelding-midden{
+      margin-left: 38%;
+      margin-top: -23%;
+  }
+  .foto-midden{
+      height: 100%;
+  }
+  .bijlage-midden{
+      margin-left: 12%;
+      font-size: 130%;
+      margin-top: -6%;
+  }
+  .winkelkar-midden{
+      margin-left: 2%;
+      margin-top: 0%;
+  }
+  .prijs-midden{
+      margin-left: 18%;
+      font-size: 130%;
+      margin-top: 0.7%;
+  }
+  .afbeelding-rechts{
       margin-left: 70%;
-      margin-top: -14.5%;
-      color: red;
+      margin-top: -24%;
   }
-
-  .travis-scott {
-      margin-left: 10%;
-      margin-top: 5%;
-      color: red;
+  .foto-rechts{
+      height: 100%;
   }
-
-  .ChicagoBullsOG {
-    margin-left: 38%;
-    margin-top: -15.5%;
-    color: red;
+  .bijlage-rechts{
+      margin-left: 25%;
+      font-size: 130%;
+      margin-top: -6%;
   }
-
-  .bred {
-      margin-left: 70%;
-      margin-top: -16%;
-      color: red;
+  .prijs-rechts{
+      margin-left: 36%;
+      font-size: 130%;
+      margin-top: 2%;
+      
   }
-
-  .gold {
-    margin-left: 10%;
-    margin-top: 5%;
-    color: red;
-}
-
-.JBalvin {
-    margin-left: 37%;
-    margin-top: -19%;
-    color: red;
-}
-
-.Shadow2 {
-    margin-left: 70%;
-    margin-top: -19%;
-    color: red;
-}
+  .winkelkar-rechts{
+      margin-left: 3%;
+      margin-top: 0%;
+  }
   /* Dropdown */
 ul {
   list-style-type: none;
