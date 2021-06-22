@@ -73,6 +73,16 @@ nav .icon-burger .line{
   border-radius: 3px;
   transition: all .3s ease-in-out;
 }
+
+#Tekst {
+  margin-left: 45%;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
 .icons{
   display: flex;
   justify-content: space-around;
