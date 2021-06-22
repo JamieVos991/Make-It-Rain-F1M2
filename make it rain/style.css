@@ -2,6 +2,11 @@ body{
   padding: 0%;
   margin: 0%;
 }
+
+/* .logo {
+margin-left: 10px;
+} */
+
 .container{
   position: relative;
   margin-top: 0%;
@@ -13,8 +18,9 @@ nav{
   right: 0%;
   top: 0%;
   font-family: 'Courier New', Courier, monospace;
-  height: 10%;
+  height: 117px;
   background-color: rgb(62, 251, 77);
+  padding-left: 20px;
 }
 nav div.logo{
   float: left;
@@ -67,6 +73,26 @@ nav .icon-burger .line{
   border-radius: 3px;
   transition: all .3s ease-in-out;
 }
+.icons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+#Foto1 {
+  /* float: left; */
+  
+}
+#Foto2 {
+  /* float: left; */
+ 
+}
+#Foto3 {
+  /* float: left; */
+ 
+}
+/* Kleinscherm */
+
 @media screen and (max-width: 860px) {
   nav div.logo{
     float: none;
@@ -102,6 +128,5 @@ nav .icon-burger .line{
   nav :checked ~ .icon-burger .line:nth-child(1){
     transform: translateY(10px) ;
   }
-  
 
 }
