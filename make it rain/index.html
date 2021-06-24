@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fotoslider kopie/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<nav>
+    <input id="nav-toggle" type="checkbox">
+    <div><a href="index.html"><img src="Logo (PNG) kopie.png" alt="" style="height: 30px; margin-top: 10px;"></a></div>
+    <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shoes">Shoes</a></li>
+        <li><a href="#shoppingcart">Shopping cart</a></li>
+        <li><a href="#search">Search</a></li>
+    </ul>
+    <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+       
+    </label>
+</nav>
+<div class="container">
+    <div class="slider">
+        <div class="slides"> 
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1" >
+            <input type="radio" name="radio-btn" id="radio2" >
+            <input type="radio" name="radio-btn" id="radio3" >
+            <input type="radio" name="radio-btn" id="radio4" >
+            <!--radio buttons end-->
+            <!--slide Image start-->
+            <div class="slide first">
+                <img src="./schoenen-slider/nike-jordan.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./schoenen-slider/adidas-yeezy.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./schoenen-slider/nike-airforce.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./schoenen-slider/adidas-yeezy-zwart.png" alt="">
+            </div>
+            <!--slide Image end-->
+            <!--automtic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automtic  navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+
+    </div>
+    <!--Image slider Eind-->
+    <script type="text/javascript"> 
+    var counter = 1; 
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    },5000);
+    
+    
+    </script>
+
+<div id="Tekst"> 
+    <h1>Missie</h1>
+    <p>
+        Onze missie is om onze klanten een winkelervaring aan te bieden 
+        <br>
+        door middel van een zorgvuldige selectie van exclusieve producten, inhoud en verhalen. 
+        <br>
+        Sneaker and co is een internationaal franchisingproject, in samenwerking met de beste merken, 
+        <br>
+        dat is opgericht met als doel het referentiepunt te zijn voor alle consumenten die op zoek 
+        <br>
+        zijn naar het laatste nieuws, authentieke, innovatieve, exclusieve producten, 
+        <br>
+        die zijn begonnen vanuit de sportwereld maken ook deel uit van de stedelijke 
+        <br>
+        cultuur: limited editions, meest gewilde producten, trendy accessoires, samenwerkingen met artiesten 
+        <br>
+        van grote internationale merken.
+    </p>
+</div>  
+    
+</div>
+<div class= "icons">
+        <div id="Foto1">
+            <img src="../Icoons/plane.png" alt="" style="height: 200px">
+            <hr style="width: 100%">
+            <h1>FREE SHIPPING</h1>
+            <p>At SneakersAndCo, shipments are secure, free, and 
+                <br>
+                international.</p>
+        </div>
+        <div id="Foto2">
+            <img src="../Icoons/Person.png" alt="" style="height: 200px">
+            <hr style="width: 100%">
+            <h1>24H SUPPORT</h1>
+            <p>We have 24/7 support via Instagram or via 
+                <br>
+                info@sneakersandco.com</p>
+        </div>
+        <div id="Foto3">
+            <img src="../Icoons/lock-afb.png" alt=""style="height: 200px">
+            <hr style="width: 100%">
+            <h1>SECURE PAYMENT</h1>
+            <p>The SSL protocol ensures that your payment is secure, 
+                <br>
+                without any danger.</p>
+        </div>
+</div>
+
+
+<div class="footer">
+    <div class="footer-content">
+        <h3>Sneaker Inc.</h3>
+        <p>De beste sneakers! De beste sneakers! De beste sneakers! 
+        De beste sneakers!</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+           
+     <div class="footer-bottom">
+      <h4>© by Jamie, Alex en Jesse van het Mediacollege</h4>
+     </div>
+</div>
+
+</body>
+</html>
