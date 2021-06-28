@@ -11,3 +11,5 @@ GitHub: https://github.com/JamieVos991/MakeItRain-F1M4
 -----------------------------------------------------------------
 
 Opdracht: 
+
+Wij (Jamie, Alex en Jesse) maken een website waarop je schoenen kan kopen, oftewel, een eigen onderneming. 
